@@ -80,7 +80,7 @@ entity.trunk.stay=箱子宝宝将留在原地
 entity.Thaumcraft.MindSpider.name=心魔蜘蛛
 entity.Thaumcraft.EldritchGuardian.name=异域守卫
 entity.Thaumcraft.EldritchWarden.name=异域守望者
-entity.Thaumcraft.EldritchWarden.name.custom=%s the %d
+entity.Thaumcraft.EldritchWarden.name.custom=%d%s
 entity.Thaumcraft.EldritchGolem.name=异域巨像
 entity.Thaumcraft.EldritchGolem.name.custom=%s 异域巨像
 entity.Thaumcraft.EldritchOrb.name=邪术球
@@ -174,6 +174,7 @@ tile.taint.soil.name=腐化泥土
 tile.taint.geyser.name=Taint Geyser
 tile.taint_feature.name=腐化孢子
 
+
 tile.eldritch.altar.name=异域基座
 tile.eldritch.obelisk_base.name=异域方尖碑
 tile.eldritch.obelisk_body.name=异域方尖碑
@@ -261,27 +262,27 @@ tile.placeholder.furnace_obsidian.name=Infernal Furnace
 tile.barrier.name=Warding Aura
 
 # Machines
-tile.research_table.name=Research Table
-tile.arcane_workbench.name=Arcane Workbench
-tile.arcane_workbench_charger.name=Arcane Workbench Charger
-tile.wand_workbench.name=Focal Manipulator
-tile.crucible.name=Crucible
-tile.arcane_ear.name=Arcane Ear
-tile.levitator.name=Arcane Levitator
-tile.bellows.name=Arcane Bellows
+tile.research_table.name=R研究台
+tile.arcane_workbench.name=奥术工作台
+tile.arcane_workbench_charger.name=魔力充能中继器
+tile.wand_workbench.name=核心镶嵌台
+tile.crucible.name=坩埚
+tile.arcane_ear.name=奥术之耳
+tile.levitator.name=奥术悬浮台
+tile.bellows.name=奥术风箱
 tile.dioptra.name=Thaumic Dioptra
 tile.water_jug.name=Everfull Urn
-tile.recharge_pedestal.name=Recharge Pedestal
-tile.hungry_chest.name=Hungry Chest
-tile.lamp_arcane.name=Arcane Lamp
-tile.lamp_growth.name=Lamp of Growth  
-tile.lamp_fertility.name=Lamp of Fertility
-tile.jar.jar_normal.name=Warded Jar
-tile.jar.jar_void.name=Void Jar
-tile.jar.jar_brain.name=Brain in a Jar
-tile.tube.tube_normal.name=Essentia Tube
-tile.tube.tube_valve.name=Essentia Valve
-tile.tube.tube_filter.name=Filtered Essentia Tube
+tile.recharge_pedestal.name=法杖充能基座
+tile.hungry_chest.name=饕餮之箱子
+tile.lamp_arcane.name=奥术灯
+tile.lamp_growth.name=催生灯 
+tile.lamp_fertility.name=育种灯
+tile.jar.jar_normal.name=要素罐子
+tile.jar.jar_void.name=虚空罐子
+tile.jar.jar_brain.name=缸中之脑
+tile.tube.tube_normal.name=源质管道
+tile.tube.tube_valve.name=源质阀门
+tile.tube.tube_filter.name=过滤源质管道
 tile.tube.tube_restrict.name=Restricted Essentia Tube
 tile.tube.tube_oneway.name=Directional Essentia Tube
 tile.tube.tube_buffer.name=Essentia Buffer
@@ -394,6 +395,7 @@ tc.lootbag=Click to open or keep to trade
 item.thaumonomicon.name=Thaumonomicon
 item.thaumonomicon.cheat.name=Cheaters Thaumonomicon
 item.thaumometer.name=Thaumometer
+item.sanity_checker.name=Sanity Checker
 item.resonator.name=Essentia Resonator
 item.sinister_stone.name=Sinister Lodestone
 item.scribing_tools.name=Scribing Tools
@@ -561,81 +563,9 @@ item.chargebonus.text=Charge
 
 ###
 
-item.GolemBell.name=Golemancer's Bell
 
-
-
-
-
-
-
-
-
-
-
-
-
-item.ItemArcaneDoor.name=Arcane Door
-
-
-
-
-item.ArcaneDoorKey.0.name=Iron Arcane Key
-item.ArcaneDoorKey.1.name=Gold Arcane Key
-
-
-
-
-
-
-item.ItemGolemCore.name=Golem Animation Core
-item.ItemGolemCore.0.name=Fill
-item.ItemGolemCore.1.name=Empty
-item.ItemGolemCore.2.name=Gather
-item.ItemGolemCore.3.name=Harvest
-item.ItemGolemCore.4.name=Guard
-item.ItemGolemCore.5.name=Decanting
-item.ItemGolemCore.6.name=Alchemy
-item.ItemGolemCore.7.name=Chop
-item.ItemGolemCore.8.name=Use
-item.ItemGolemCore.9.name=Butcher
-item.ItemGolemCore.10.name=Sorting
-item.ItemGolemCore.11.name=Fishing
-item.ItemGolemCore.100.name=Blank
-item.ItemGolemPlacer.0.name=Straw Golem
-item.ItemGolemPlacer.1.name=Wood Golem
-item.ItemGolemPlacer.2.name=Tallow Golem
-item.ItemGolemPlacer.3.name=Clay Golem
-item.ItemGolemPlacer.4.name=Flesh Golem
-item.ItemGolemPlacer.5.name=Stone Golem
-item.ItemGolemPlacer.6.name=Iron Golem
-item.ItemGolemPlacer.7.name=Thaumium Golem
-item.ItemGolemDecoration.name=Accessory
-item.ItemGolemDecoration.0.name=Top Hat
-item.ItemGolemDecoration.1.name=Spectacles
-item.ItemGolemDecoration.2.name=Bowtie
-item.ItemGolemDecoration.3.name=Fez
-item.ItemGolemDecoration.4.name=Dart Launcher
-item.ItemGolemDecoration.5.name=Visor
-item.ItemGolemDecoration.6.name=Iron Plating
-item.ItemGolemDecoration.7.name=Mace Arm
-item.ItemGolemUpgrade.0.name=Golem Upgrade: Air
-item.ItemGolemUpgrade.1.name=Golem Upgrade: Earth
-item.ItemGolemUpgrade.2.name=Golem Upgrade: Fire
-item.ItemGolemUpgrade.3.name=Golem Upgrade: Water
-item.ItemGolemUpgrade.4.name=Golem Upgrade: Order
-item.ItemGolemUpgrade.5.name=Golem Upgrade: Entropy
-item.ItemGolemUpgrade.0.desc=Improves Speed
-item.ItemGolemUpgrade.1.desc=Improves Strength
-item.ItemGolemUpgrade.2.desc=Improves Damage, Capacity
-item.ItemGolemUpgrade.3.desc=Improves Senses, Range
-item.ItemGolemUpgrade.4.desc=Improves Organization, Intellect
-item.ItemGolemUpgrade.5.desc=Improves Defenses, Reasoning
-
-item.ItemManaBean.name=Mana Bean
 item.TrunkSpawner.name=Traveling Trunk
 item.TrunkSpawner.text.1=This trunk holds items
-
 
 item.HelmetFortress.mask.0=Grinning Devil
 item.HelmetFortress.mask.1=Angry Ghost
@@ -643,14 +573,8 @@ item.HelmetFortress.mask.2=Sipping Fiend
 
 item.ItemEldritchObject.4.name=Eldritch Obelisk Placer
 item.ItemEldritchObject.text.1=It seems to be watching you.
-
-
 item.ItemEldritchObject.text.5=The very fabric of magic seems 
 item.ItemEldritchObject.text.6=to buckle each time it pulses.
-
-item.ItemSanityChecker.name=Sanity Checker
-
-
 
 
 
@@ -740,9 +664,10 @@ recipe.type.construct=Mystical Construct
 wandtable.text1=Vis Cost
 wandtable.text2=Experience Cost
 wandtable.text3=Start Upgrade
-#
+
+
 # Other
-itemGroup.Thaumcraft=Thaumcraft
+itemGroup.thaumcraft=Thaumcraft
 
 nodetype.0=Normal
 nodetype.1=Sinister
